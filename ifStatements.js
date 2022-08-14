@@ -48,3 +48,22 @@ if (console.log("aaa")) {
 if (0) {
   console.log("zero");
 }
+if (console.log) {
+}
+
+a = 5;
+b = 10;
+c = a * b;
+console.log(c);
+
+(function () {
+  setTimeout(() => console.log(1), 5000);
+  console.log(2);
+  setTimeout(() => console.log(3), 0);
+  console.log(4);
+})();
+
+var q = Math.max();
+var w = Math.min();
+console.log(q);
+console.log(w);
