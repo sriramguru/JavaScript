@@ -90,3 +90,38 @@
 // let n = 25;
 // sumOfSquares = (n * (n + 1) * (2 * n + 1)) / 6;
 // console.log(sumOfSquares);
+
+//11.sum of cubes of first n natural numbers
+// let n = 4;
+// sumOfCubes = (n * n * (n * n + 2 * n + 1)) / 4;
+// console.log(sumOfCubes);
+
+//12.to check whther the string is palindrome
+// let str = "malayalam";
+// function reverseString(str) {
+//   return str.split("").reverse().join("");
+// }
+// reverseString("malayalam");
+
+// console.log(reverseString("malayalam"));
+// if (str === reverseString("malayalam")) {
+//   console.log("given string is palindrome");
+// } else {
+//   console.log("not a palindrome");
+// }
+
+// let str = "Tamil";
+// var splitArray = str.split("");
+// console.log(splitArray);
+
+// var reverseArray = splitArray.reverse();
+// console.log(reverseArray);
+
+// var reverseString = reverseArray.join("");
+// console.log(reverseString);
+
+// if (str === reverseString) {
+//   console.log("palindrome");
+// } else {
+//   console.log("not");
+// }
