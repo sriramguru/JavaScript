@@ -125,3 +125,17 @@
 // } else {
 //   console.log("not");
 // }
+
+// var discount = 10;
+var amount = 1000;
+function changeValues() {
+  var discount = 15;
+  amount = 1200;
+  console.log("In discount: " + discount);
+  console.log("In amount: " + amount);
+}
+
+changeValues();
+
+// console.log("Out discount: " + discount);
+console.log("Out amount: " + amount);
