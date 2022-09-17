@@ -1,0 +1,36 @@
+html {
+  line-height: 1.6;
+  font-size: 62.5%;
+}
+
+.container {
+  width: 30rem;
+}
+
+.display {
+  border: 0.1rem solid black;
+  padding: 2rem;
+  font-size: 2rem;
+  text-align: right;
+  margin-bottom: 0;
+  background-color: ;
+}
+
+.buttons {
+  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+
+  font-size: 2rem;
+  width: 30rem;
+}
+
+.btns {
+  border: 0.1rem solid black;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.btns:hover {
+  background-color: tomato;
+  cursor: pointer;
+}
