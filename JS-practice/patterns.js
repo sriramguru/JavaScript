@@ -18,8 +18,9 @@
 //   console.log(res);
 // }
 
-let a = 1;
-let b = a + "\n";
-console.log(b);
-let c = 2;
-console.log(b + c);
+// let a = 1;
+// let b = a + "\n";
+// console.log(b);
+// let c = 2;
+// console.log(b + c);
+console.log("hi");
